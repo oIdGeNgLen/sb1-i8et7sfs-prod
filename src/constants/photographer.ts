@@ -1,0 +1,1 @@
+export const PHOTOGRAPHER_NAME = "Simon Ives";
