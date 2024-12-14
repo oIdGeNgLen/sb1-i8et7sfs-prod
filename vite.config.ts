@@ -8,8 +8,8 @@ export default defineConfig(({ command, mode }) => ({
     exclude: ['lucide-react'],
   },
   build: {
-    outDir: mode === 'ssr' ? 'dist/server' : 'dist/client',
-    ssr: mode === 'ssr' ? resolve(__dirname, 'src/entry-server.tsx') : false,
+    outDir: 'dist',
+    sourcemap: true
   },
   server: {
     historyApiFallback: true
