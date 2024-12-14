@@ -5,10 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:client && npm run build:server && npm run generate",
-    "build:client": "vite build --outDir dist/client",
-    "build:server": "tsc && vite build --ssr src/entry-server.tsx --outDir dist/server",
-    "generate": "node --loader ts-node/esm prerender.ts",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
