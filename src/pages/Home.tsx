@@ -19,13 +19,11 @@ export function Home() {
   const [activePhotoIndex, setActivePhotoIndex] = useState(0);
 
   useEffect(() => {
-    if (location.state?.scrollPosition) {
-      const container = document.querySelector('.snap-y');
-      if (container) {
-        container.scrollTop = location.state.scrollPosition;
-      }
+    const container = document.querySelector('.snap-y');
+    if (container) {
+      container.scrollTop = 0;
     }
-  }, [location.state]);
+  }, [currentPage]);
 
   if (loading) {
     return (
@@ -63,7 +61,6 @@ export function Home() {
       state: { page, scrollPosition: 0 }
     });
     setActivePhotoIndex(0);
-    window.scrollTo(0, 0);
   };
 
   const paginationElement = (
