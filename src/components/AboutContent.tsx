@@ -8,7 +8,7 @@ export function AboutContent() {
         "I try to captures juxtaposing, humourous, semi-abstract images highlighting the upside down, absurd, and beautiful ideas and impressions that can be discovered amid the everyday urban and natural environments, seeking to find the extraordinary in the ordinary."
       </p>
       <p className="text-lg leading-relaxed mb-6">
-        Simon Ives is an award winning documentary film maker, former wedding photographer and studio owner, and occasional urban / street photographer in Phnom Penh Cambodia, where he resides with his beautiful family.
+        Simon is an award winning documentary film maker, former wedding photographer and studio owner, and urban / street photographer in Phnom Penh Cambodia, where he resides with his beautiful family.
       </p>
       <p className="text-lg leading-relaxed mb-6">
         He is the co-founder of Milk and Honey English School and more recently <a href="https://freedominternational.org" target="_blank">Freedom International</a>, with his wife Kamini. Freedom International prevents human trafficking through education in developing nations.
